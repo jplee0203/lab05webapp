@@ -16,7 +16,7 @@ class App extends Component {
     
     componentDidMount(){
         
-        this.socket=mySocket("https://git.heroku.com/lab05socket.git");
+        this.socket=mySocket("https://lab05socket.herokuapp.com/");
         this.socket.on("userjoined", (data)=>{
            this.setState({allusers:data
                          }) 
