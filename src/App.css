@@ -1,40 +1,28 @@
-
-
-.display{
-    width: 100vw;
-    height: 100vh;
-    left: 0;
-    top:0;
-    background-color: beige;
-   
-    position: fixed;
-    background-image: url(images/bg.png);
+.App {
+  text-align: center;
 }
 
-.control{
-    
-    width: 50vw;
-    height: 20vh;
+#display{
+    width: 100vw;
+    height: 100vh;
     position: fixed;
-    background-color: deepskyblue;
-    right:0;
+    left: 0;
+    top: 0;
+    background-color: #FADD;
+    cursor: none;
+}
+
+#controls{
+    width: 30vw;
+    height: 75px;
+    position: fixed;
     bottom: 0;
-    border-radius: 10px;
-    text-align: center;
-    opacity: 0.5;
-    
+    right: 0;
+    background-color: #BADD;
 }
 
 #myImg{
     position: absolute;
-    right: 2%
-    
-}
-
-#myImg2{
-    position: absolute;
-    right: 10%;
-    
 }
 
 .allImgs{
