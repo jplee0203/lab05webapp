@@ -8,7 +8,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    background-color: #FADD;
+    background-color: aliceblue;
     cursor: none;
 }
 
@@ -18,7 +18,7 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    background-color: #BADD;
+    background-color: bisque;
 }
 
 #myImg{
