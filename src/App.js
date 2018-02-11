@@ -7,7 +7,8 @@ class App extends Component {
         super(props);
         this.state={
             myImg: require("./img/img1.png"),
-            myImg2: require("./img/img2.png"), 
+            myImg2: require("./img/img2.png"),
+            myImg3: require("./img/img3.png"),
             allUsers:[],
             myId: null,
             countUser:0        }
@@ -22,7 +23,7 @@ class App extends Component {
    
        document.getElementById("App").removeChild(document.getElementById("display"));
       alert('Try Again');
-        
+        this.refs["u"+this.state.myId].src = this.state.myImg3;  
     }
     /* End */
     mouseHoverWin(){
